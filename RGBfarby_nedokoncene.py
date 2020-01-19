@@ -13,7 +13,7 @@ while True:
     r+=ar
     g+=ag
     b+=ab    
-    c.create_rectangle(X_MAX-200,Y_MAX-200,X_MAX+200,Y_MAX+200,fill=farba)
+    c.create_rectangle(X_MAX/2-200,Y_MAX/2-200,X_MAX/2+200,Y_MAX/2+200,fill=farba)
     if r==255 or r==0:
         ar*=-1
     if g==255 or g==0:
